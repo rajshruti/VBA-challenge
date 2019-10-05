@@ -7,7 +7,7 @@ Sub VBAStocks()
         'Variables declaration
         
         Dim ticker As String
-        Dim total_stockvol, greatest_totalvol, i, j, open_index, LastRow As Integer
+    Dim total_stockvol, greatest_totalvol, i, j, open_index, LastRow, LastColumn As Integer
         Dim open_price, close_price, yearly_change, percent_change, greatest_increase, greatest_decrease As Double
         
         ' Initialize the variables
